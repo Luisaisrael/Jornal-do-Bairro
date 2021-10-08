@@ -1,0 +1,84 @@
+
+body {
+  background-color: #dfecf7;
+}
+header {
+    background-color:#4682B4;
+    margin: -10px;
+    padding-top: 3px;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 10px;
+    list-style-type: none;
+    background-color: #7fafee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mapa {
+    width: 700px;
+    height: 450px;
+    margin-left: 300px;
+    padding: 20px;
+}
+h2{
+    font-size: 30px;
+}
+p {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+}
+.noticia {
+    background-color: #B0E0E6;
+    margin: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+img {
+    float: left;
+    padding-right: 20px;
+    width: 500px;
+}
+.paragrafo {  
+    text-align: justify;
+    margin-left: 530px;
+}
+.paragrafo2 {
+    text-align: justify;
+}
+.fonte {
+    font-size: 15px;
+    text-align: left;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+iframe {
+    margin-left: 300px;
+    padding-right: 20px;
+}
+#apagao {
+    height: 500px;
+}
+#fotocovid {
+    height: 650px;
+}
+footer {
+    background-color: #7fafee;
+    text-align: center;
+    margin: -30px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.rodape {
+    text-align: center;
+}
