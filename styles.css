@@ -1,16 +1,34 @@
-
 body {
   background-color: #dfecf7;
 }
 header {
-    background-color:#4682B4;
     margin: -10px;
     padding-top: 3px;
+    animation: cores 1s ease infinite alternate;
+}
+@keyframes cores {
+    0% {
+        background-color: #84b1eb;
+    }
+    25% {
+        background-color:#639fcf;
+    }
+    50% {
+        background-color: #5a94c4;
+    }
+    100% {
+        background-color: #427baa;
+    }
 }
 h1 {
     text-align: center;
     font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 3s ease 1s;
+}
+h1:hover{
+    transform: scale(2);
+    color:white;
 }
 ul {
     display: flex;
@@ -81,4 +99,26 @@ footer {
 }
 .rodape {
     text-align: center;
+}
+a:hover {
+    color: rgb(228, 107, 212);
+    border-radius: 10px;
+}
+a:active {
+  color: white;
+}
+p::selection{
+   background-color: #7fafee;
+}
+.fonte2:link {
+    color: #510ece;
+}
+.fonte2:visited {
+    color: rgb(172, 22, 241);
+}
+p::selection {
+    background-color: rgb(46, 207, 113);
+}
+a {
+    cursor: pointer;
 }
