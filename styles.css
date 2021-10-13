@@ -101,9 +101,9 @@ footer {
     text-align: center;
 }
 a:hover {
-    color: rgb(228, 107, 212);
-    border-radius: 10px;
+  background-color: rgb(228, 107, 212);
 }
+
 a:active {
   color: white;
 }
